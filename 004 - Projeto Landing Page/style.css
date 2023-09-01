@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  
+}
+
+body{background-color: #3a86ff;
+
+}
+
+header{
+  background-color: #3a86ff;
+}
+
+.navBar{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+
+.logo img{
+  width: 60px;
+}
+
+.menuNav{
+  display: flex;
+  float: right !important;
+  margin-right: 5%;
+  
+}
+
+.menuNav ul{
+  display: flex;
+  list-style-type: none;
+  
+}
+
+.menuNav ul li{
+  margin-left: 15px;
+  font-size: 1.4rem;
+  
+  
+}
+
+.menuNav ul li a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.secTitulo{
+  background-image: url("assets/ursopolar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+
+}
+
+.titulo{
+  color: aliceblue;
+  font-size: 2rem ;
+  float: right;
+  margin-top: 15%;
+  margin-right: 5%;
+  
+}
+
+.divIntro {
+  display: flex;
+  align-items: center;
+  background-color: #3a86ff;
+  color: aliceblue;
+  flex-direction: column;
+  padding: 1%;
+  font-size: 1.4rem;
+  margin-left: 1%;
+}
+
+
+.textLeft{
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  align-items: center;
+  padding: 1%;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.textRight{
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  align-items: center;
+  padding: 1%;
+  width: 50%;
+  font-size: 1.2rem;
+  float: right;
+}
+
+h2{
+  margin: 5%;
+}
+
+.divTitulo {
+  margin: 2%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1.4rem;
+  color: aliceblue;
+}
