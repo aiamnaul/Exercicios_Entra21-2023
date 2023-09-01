@@ -66,6 +66,8 @@ header {
   padding: 1%;
   font-size: 1.4rem;
   margin-left: 1%;
+  font-family: 'Kalam', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 .textLeft {
@@ -76,6 +78,8 @@ header {
   padding: 1%;
   width: 50%;
   font-size: 1.2rem;
+  font-family: 'Kalam', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 .textRight {
@@ -87,10 +91,14 @@ header {
   width: 50%;
   font-size: 1.2rem;
   float: right;
+  font-family: 'Kalam', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
-h2 {
+h2, h1 {
   margin: 5%;
+  font-family: 'Kalam', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 .divTitulo {
@@ -100,6 +108,8 @@ h2 {
   display: flex;
   font-size: 1.4rem;
   color: aliceblue;
+  font-family: 'Kalam', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contato {
